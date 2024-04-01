@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_registration_background.png.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\registration_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\font_inter.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\font\\inter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\font_inter_bold.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\font\\inter_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_register_password.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_register_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_register_phone.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_register_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_email_icon.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\email_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_user_icon.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\user_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_main3.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\font_inter_extrabold.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\font\\inter_extrabold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_key_icon.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\key_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_lock_icon.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\lock_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_register_name.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_register_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "com.example.pawsible_registration.app-merged_res-58:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.pawsible_registration.app-main-60:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_main4.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\drawable_phone_icon.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\drawable\\phone_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_register_code.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_register_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_register_email.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_register_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-merged_res-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Reycel\\.gradle\\daemon\\8.2\\com.example.pawsible_registration.app-main-60:\\layout\\activity_main.xml"
+    }
+]
