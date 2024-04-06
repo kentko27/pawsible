@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    tools:ignore="MissingDefaultResource">
+    android:background="@drawable/bg">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -53,7 +52,7 @@
                 app:layout_constraintVertical_bias="0.020" />
 
             <LinearLayout
-                android:id="@+id/linearLayout2"
+                android:id="@+id/donate2Layout"
                 android:layout_width="393dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="20dp"
@@ -61,7 +60,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.615"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                app:layout_constraintTop_toBottomOf="@+id/donate1Layout"
                 app:layout_constraintVertical_bias="0.112">
 
                 <ImageButton
@@ -75,7 +74,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout3"
+                android:id="@+id/donate3Layout"
                 android:layout_width="393dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="20dp"
@@ -83,7 +82,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.615"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintTop_toBottomOf="@+id/donate2Layout"
                 app:layout_constraintVertical_bias="0.112" >
 
                 <ImageButton
@@ -97,7 +96,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout"
+                android:id="@+id/donate1Layout"
                 android:layout_width="393dp"
                 android:layout_height="300dp"
                 android:orientation="horizontal"
@@ -115,6 +114,7 @@
                     android:layout_width="370dp"
                     android:layout_height="300dp"
                     android:layout_gravity="center_horizontal"
+                    android:onClick="donate1"
                     android:layout_margin="10dp"
                     android:background="@drawable/donate1" />
 
