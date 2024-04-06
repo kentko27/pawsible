@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bottom_navigation_background"
+        android:elevation="8dp"
+        app:itemIconTint="@drawable/bottom_navigation_color_selector"
+        app:itemTextColor="@color/white"
+        app:itemIconSize="30dp"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottomnav" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:background="@drawable/round_shape"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/notif"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/locsize"
+        android:gravity="center_vertical"
+        android:text="Seoul, South Korea"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, Tzuyu!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/sample"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="47dp"
+        android:layout_height="67dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="534dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.02">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Cats"
+                android:textColor="#6C94FC"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="407dp"
+                android:layout_height="250dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/catCard1"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/catName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/catImage1"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Thomas"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/shelterName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/catName1"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Cozy Paws"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/catImage1"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cat1" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/catCard2"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/catCard1"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/catName2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/catImage2"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Millie"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/shelterName2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/catName2"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="1dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Animal Angels"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/catImage2"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cat2" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/catCard3"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/catCard2"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/catName3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/catImage3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Flash"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/shelterName3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/catName3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="1dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Cozy Nest"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/catImage3"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cat3" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Dogs"
+                android:textColor="#6C94FC"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView1" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="407dp"
+                android:layout_height="250dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dogCard1"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/dogName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/dogImage1"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Roxie"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/dogshelterName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/dogName1"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Forever Sanctuary"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/dogImage1"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/dog1" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dogCard2"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/dogCard1"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/dogName2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/dogImage2"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Ace"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/dogshelterName2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/dogName2"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="1dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Happy Tails"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/dogImage2"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/dog2" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dogCard3"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/dogCard2"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/dogName3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/dogImage3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Piper"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/dogshelterName3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/dogName3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="1dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Paw Homes"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/dogImage3"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/dog3" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Near you"
+                android:textColor="#6C94FC"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView3"
+                android:layout_width="407dp"
+                android:layout_height="250dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/nyCard1"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/nyName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nyImage1"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="7dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Thomas"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/nyshelterName1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nyName1"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="2dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Cozy Paws"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/nyImage1"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cat1" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/nyCard2"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/nyCard1"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/nyName2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nyImage2"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Ace"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/nyshelterName2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nyName2"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="1dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Happy Tails"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/nyImage2"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/dog2" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/nyCard3"
+                        android:layout_width="189dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="5dp"
+                        app:layout_constraintStart_toEndOf="@+id/nyCard2"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/nyName3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nyImage3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="8dp"
+                                android:fontFamily="@font/nunito_sans_bold"
+                                android:text="Flash"
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/nyshelterName3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nyName3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="1dp"
+                                android:fontFamily="@font/nunito_sans"
+                                android:drawableLeft="@drawable/locsize"
+                                android:text="Cozy Nest"
+                                android:textColor="#78828A"
+                                android:textSize="14sp" />
+
+                            <ImageView
+                                android:id="@+id/nyImage3"
+                                android:layout_width="156dp"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="15dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cat3" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
