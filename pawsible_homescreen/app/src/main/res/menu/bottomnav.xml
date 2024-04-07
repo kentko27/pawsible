@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/adopt"
+        android:icon="@drawable/adoption_svg"
+        android:title="Adopt" />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_svg"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/petcare"
+        android:icon="@drawable/petcare_svg"
+        android:title="Pet Care" />
+
+    <item
+        android:id="@+id/community"
+        android:icon="@drawable/community_svg"
+        android:title="Community" />
+</menu>
