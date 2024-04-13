@@ -1,0 +1,169 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lgu_bg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <!-- Add your scrollable content here -->
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="402dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/emergency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="378dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="408dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <ImageButton
+                    android:id="@+id/imageview7"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/happy"
+                    android:onClick="bambooarchitecture" />
+
+                <ImageButton
+                    android:id="@+id/imageview8"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/awc"
+                    android:onClick="buildingwithbamboo" />
+
+                <ImageButton
+                    android:id="@+id/imageview9"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/psp"
+                    android:onClick="buildingwithbamboo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="378dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="250dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <ImageButton
+                    android:id="@+id/imageview4"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/cara"
+                    android:onClick="bamboogridshells" />
+
+                <ImageButton
+                    android:id="@+id/imageview5"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/akf"
+                    android:onClick="bambooinvietnam" />
+
+                <ImageButton
+                    android:id="@+id/imageview6"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/peta"
+                    android:onClick="farmingbamboo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="378dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="92dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <ImageButton
+                    android:id="@+id/imageview1"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/paws"
+                    android:onClick="howtobuildwithbamboo" />
+
+                <ImageButton
+                    android:id="@+id/imageview2"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bai"
+                    android:onClick="engineeredbamboostructures" />
+
+                <ImageButton
+                    android:id="@+id/imageview3"
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/part"
+                    android:onClick="illustrationsofbamboos" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="366dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:text="Animal Rescue Groups and Non-Profit Organizations"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

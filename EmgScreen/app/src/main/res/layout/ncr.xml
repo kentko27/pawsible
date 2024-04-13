@@ -1,0 +1,131 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lgu_bg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp">
+
+            <!-- Add your scrollable content here -->
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="402dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/ncr_emergency"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="378dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="340dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <ImageButton
+                    android:id="@+id/imageview9"
+                    android:layout_width="400dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/caloocan"
+                    android:onClick="buildingwithbamboo" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="378dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="180dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <ImageButton
+                    android:id="@+id/imageview6"
+                    android:layout_width="370dp"
+                    android:layout_height="141dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/qc"
+                    android:onClick="farmingbamboo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="378dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <ImageButton
+                    android:id="@+id/imageview3"
+                    android:layout_width="400dp"
+                    android:layout_height="141dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/makati"
+                    android:onClick="illustrationsofbamboos" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="378dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="520dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+            <ImageButton
+                android:id="@+id/imageview10"
+                android:layout_width="370dp"
+                android:layout_height="160dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/pasig"
+                android:onClick="buildingwithbamboo"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="735dp" />
+            </LinearLayout>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
