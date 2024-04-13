@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_description.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\description.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_donate3.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\donate3.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\layout_donation_screen.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\layout\\donation_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_donateback.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\donateback.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_donate1.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\donate1.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_bg.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\font_nunito_sans_bold.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\font\\nunito_sans_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_bg2.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\bg2.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\layout_donation_info.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\layout\\donation_info.xml"
+    },
+    {
+        "merged": "com.example.appcon.app-merged_res-31:/layout_donation_info.xml.flat",
+        "source": "com.example.appcon.app-main-33:/layout/donation_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\font_nunito_sans.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\font\\nunito_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_info1.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\info1.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.appcon.app-merged_res-31:/drawable_petfoundation.png.flat",
+        "source": "com.example.appcon.app-main-33:/drawable/petfoundation.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\drawable_donate2.png.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\drawable\\donate2.png"
+    },
+    {
+        "merged": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Tj\\.gradle\\daemon\\8.2\\com.example.appcon.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    }
+]
